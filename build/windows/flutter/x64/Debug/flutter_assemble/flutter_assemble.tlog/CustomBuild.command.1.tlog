@@ -1,0 +1,28 @@
+^D:\ONEDRIVE - VNU-HCMUS\FLUTTER\COMING_PROJECT\BUILD\WINDOWS\CMAKEFILES\4FF11A5219527EC6B35ED5666AA8342E\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=D:\OneDrive - VNU-HCMUS\Flutter\coming_project" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=D:\OneDrive - VNU-HCMUS\Flutter\coming_project\windows\flutter\ephemeral" "PROJECT_DIR=D:\OneDrive - VNU-HCMUS\Flutter\coming_project" "FLUTTER_TARGET=D:\OneDrive - VNU-HCMUS\Flutter\coming_project\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\OneDrive - VNU-HCMUS\Flutter\coming_project\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ONEDRIVE - VNU-HCMUS\FLUTTER\COMING_PROJECT\BUILD\WINDOWS\CMAKEFILES\F7BF4E28B963FDFAAA9FE11EE8DE1F47\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ONEDRIVE - VNU-HCMUS\FLUTTER\COMING_PROJECT\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/OneDrive - VNU-HCMUS/Flutter/coming_project/windows" "-BD:/OneDrive - VNU-HCMUS/Flutter/coming_project/build/windows" --check-stamp-file "D:/OneDrive - VNU-HCMUS/Flutter/coming_project/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
